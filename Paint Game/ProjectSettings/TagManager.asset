@@ -8,6 +8,7 @@ TagManager:
   - End
   - Ground
   - Painted Ground
+  - Boundary
   layers:
   - Default
   - TransparentFX

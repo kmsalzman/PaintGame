@@ -6,21 +6,16 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public float speed = 5f;
-    private int tileNum;
-    private int paintedNum = 0;
-    private float score;
-    private Vector3 currentPostion;
+    public int tileNum;
+    public int paintedNum;
+    public float score;
+    public Vector3 currentPostion;
     private Vector3 previousPosition;
 
     // Start is called before the first frame update
     void Start()
     {
-        currentPostion = new Vector3(-34.1105f, -16.0905f, 90f);
-        transform.position = currentPostion;
-        if (SceneManager.GetActiveScene().name == "Level1")
-        {
-            tileNum = 9;
-        }
+
     }
 
     // Update is called once per frame
@@ -49,7 +44,6 @@ public class PlayerController : MonoBehaviour
         else if (Input.GetKeyDown("r"))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-            currentPostion = new Vector3(-34.1105f, -16.0905f, 90f);
         }
     }
 
@@ -67,7 +61,7 @@ public class PlayerController : MonoBehaviour
             Debug.Log("You won! Your score is: " + score + "%");
             SceneManager.LoadScene("GameOver");
         }
-        else if (collision.tag == "Painted Ground")
+        else
         {
             Debug.Log("You can't step there!");
             transform.position = previousPosition;
