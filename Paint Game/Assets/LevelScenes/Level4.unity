@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 92316593}
   - component: {fileID: 92316592}
   - component: {fileID: 92316591}
+  - component: {fileID: 92316594}
   m_Layer: 0
   m_Name: tile (18)
   m_TagString: Ground
@@ -225,6 +226,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 92316589}
   m_CullTransparentMesh: 0
+--- !u!114 &92316594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92316589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &253926517
 GameObject:
   m_ObjectHideFlags: 0
@@ -371,6 +386,7 @@ GameObject:
   - component: {fileID: 262774094}
   - component: {fileID: 262774093}
   - component: {fileID: 262774092}
+  - component: {fileID: 262774095}
   m_Layer: 0
   m_Name: tile (22)
   m_TagString: Ground
@@ -461,6 +477,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 262774090}
   m_CullTransparentMesh: 0
+--- !u!114 &262774095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 262774090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &311304385
 GameObject:
   m_ObjectHideFlags: 0
@@ -473,6 +503,7 @@ GameObject:
   - component: {fileID: 311304389}
   - component: {fileID: 311304388}
   - component: {fileID: 311304387}
+  - component: {fileID: 311304390}
   m_Layer: 0
   m_Name: tile (23)
   m_TagString: Ground
@@ -563,6 +594,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311304385}
   m_CullTransparentMesh: 0
+--- !u!114 &311304390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 311304385}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &387918187
 GameObject:
   m_ObjectHideFlags: 0
@@ -637,6 +682,7 @@ GameObject:
   - component: {fileID: 397899597}
   - component: {fileID: 397899596}
   - component: {fileID: 397899598}
+  - component: {fileID: 397899599}
   m_Layer: 0
   m_Name: tile (8)
   m_TagString: Ground
@@ -727,6 +773,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 157.74, y: 155.95}
   m_EdgeRadius: 0
+--- !u!114 &397899599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 397899594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &413322614
 GameObject:
   m_ObjectHideFlags: 0
@@ -1165,6 +1225,7 @@ GameObject:
   - component: {fileID: 529609423}
   - component: {fileID: 529609422}
   - component: {fileID: 529609421}
+  - component: {fileID: 529609424}
   m_Layer: 0
   m_Name: tile (10)
   m_TagString: Ground
@@ -1255,6 +1316,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 529609419}
   m_CullTransparentMesh: 0
+--- !u!114 &529609424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 529609419}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &601637845
 GameObject:
   m_ObjectHideFlags: 0
@@ -1267,6 +1342,7 @@ GameObject:
   - component: {fileID: 601637848}
   - component: {fileID: 601637847}
   - component: {fileID: 601637849}
+  - component: {fileID: 601637850}
   m_Layer: 0
   m_Name: tile (1)
   m_TagString: Ground
@@ -1357,6 +1433,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 157.74, y: 155.95}
   m_EdgeRadius: 0
+--- !u!114 &601637850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 601637845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &651186344
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,6 +1534,7 @@ GameObject:
   - component: {fileID: 677914229}
   - component: {fileID: 677914228}
   - component: {fileID: 677914230}
+  - component: {fileID: 677914231}
   m_Layer: 0
   m_Name: tile (3)
   m_TagString: Ground
@@ -1534,6 +1625,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 157.74, y: 155.95}
   m_EdgeRadius: 0
+--- !u!114 &677914231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 677914226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1639,6 +1744,7 @@ GameObject:
   - component: {fileID: 784707825}
   - component: {fileID: 784707824}
   - component: {fileID: 784707823}
+  - component: {fileID: 784707826}
   m_Layer: 0
   m_Name: tile (11)
   m_TagString: Ground
@@ -1729,6 +1835,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 784707821}
   m_CullTransparentMesh: 0
+--- !u!114 &784707826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 784707821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &785522042
 GameObject:
   m_ObjectHideFlags: 0
@@ -1741,6 +1861,7 @@ GameObject:
   - component: {fileID: 785522046}
   - component: {fileID: 785522045}
   - component: {fileID: 785522044}
+  - component: {fileID: 785522047}
   m_Layer: 0
   m_Name: tile (15)
   m_TagString: Ground
@@ -1831,6 +1952,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 785522042}
   m_CullTransparentMesh: 0
+--- !u!114 &785522047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785522042}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &789818030
 GameObject:
   m_ObjectHideFlags: 0
@@ -1843,6 +1978,7 @@ GameObject:
   - component: {fileID: 789818034}
   - component: {fileID: 789818033}
   - component: {fileID: 789818032}
+  - component: {fileID: 789818035}
   m_Layer: 0
   m_Name: tile (12)
   m_TagString: Ground
@@ -1933,6 +2069,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 789818030}
   m_CullTransparentMesh: 0
+--- !u!114 &789818035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 789818030}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &866528390
 GameObject:
   m_ObjectHideFlags: 0
@@ -2227,6 +2377,7 @@ GameObject:
   - component: {fileID: 1020969071}
   - component: {fileID: 1020969070}
   - component: {fileID: 1020969072}
+  - component: {fileID: 1020969073}
   m_Layer: 0
   m_Name: tile
   m_TagString: Boundary
@@ -2317,6 +2468,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 157.74, y: 155.95}
   m_EdgeRadius: 0
+--- !u!114 &1020969073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1020969068}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1030948589
 GameObject:
   m_ObjectHideFlags: 0
@@ -2381,6 +2546,7 @@ GameObject:
   - component: {fileID: 1093794498}
   - component: {fileID: 1093794497}
   - component: {fileID: 1093794496}
+  - component: {fileID: 1093794499}
   m_Layer: 0
   m_Name: tile (24)
   m_TagString: Ground
@@ -2471,6 +2637,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1093794494}
   m_CullTransparentMesh: 0
+--- !u!114 &1093794499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1093794494}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1108090621
 GameObject:
   m_ObjectHideFlags: 0
@@ -2483,6 +2663,7 @@ GameObject:
   - component: {fileID: 1108090625}
   - component: {fileID: 1108090624}
   - component: {fileID: 1108090623}
+  - component: {fileID: 1108090626}
   m_Layer: 0
   m_Name: tile (19)
   m_TagString: Ground
@@ -2573,6 +2754,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1108090621}
   m_CullTransparentMesh: 0
+--- !u!114 &1108090626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1108090621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1118993844
 GameObject:
   m_ObjectHideFlags: 0
@@ -2811,6 +3006,7 @@ GameObject:
   - component: {fileID: 1146254131}
   - component: {fileID: 1146254130}
   - component: {fileID: 1146254129}
+  - component: {fileID: 1146254132}
   m_Layer: 0
   m_Name: tile (14)
   m_TagString: Ground
@@ -2901,6 +3097,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1146254127}
   m_CullTransparentMesh: 0
+--- !u!114 &1146254132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1146254127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1157622261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2913,6 +3123,7 @@ GameObject:
   - component: {fileID: 1157622265}
   - component: {fileID: 1157622264}
   - component: {fileID: 1157622263}
+  - component: {fileID: 1157622266}
   m_Layer: 0
   m_Name: tile (16)
   m_TagString: Ground
@@ -3003,6 +3214,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1157622261}
   m_CullTransparentMesh: 0
+--- !u!114 &1157622266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1157622261}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1184284296
 GameObject:
   m_ObjectHideFlags: 0
@@ -3015,6 +3240,7 @@ GameObject:
   - component: {fileID: 1184284299}
   - component: {fileID: 1184284298}
   - component: {fileID: 1184284300}
+  - component: {fileID: 1184284301}
   m_Layer: 0
   m_Name: tile (7)
   m_TagString: Ground
@@ -3105,6 +3331,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 157.74, y: 155.95}
   m_EdgeRadius: 0
+--- !u!114 &1184284301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1184284296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1214304114
 GameObject:
   m_ObjectHideFlags: 0
@@ -3117,6 +3357,7 @@ GameObject:
   - component: {fileID: 1214304117}
   - component: {fileID: 1214304116}
   - component: {fileID: 1214304118}
+  - component: {fileID: 1214304119}
   m_Layer: 0
   m_Name: tile (2)
   m_TagString: Ground
@@ -3207,6 +3448,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 157.74, y: 155.95}
   m_EdgeRadius: 0
+--- !u!114 &1214304119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1214304114}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1229463686
 GameObject:
   m_ObjectHideFlags: 0
@@ -3321,6 +3576,7 @@ GameObject:
   - component: {fileID: 1267647259}
   - component: {fileID: 1267647258}
   - component: {fileID: 1267647257}
+  - component: {fileID: 1267647260}
   m_Layer: 0
   m_Name: tile (13)
   m_TagString: Ground
@@ -3411,6 +3667,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1267647255}
   m_CullTransparentMesh: 0
+--- !u!114 &1267647260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1267647255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1373149721
 GameObject:
   m_ObjectHideFlags: 0
@@ -3650,6 +3920,7 @@ GameObject:
   - component: {fileID: 1421292755}
   - component: {fileID: 1421292754}
   - component: {fileID: 1421292753}
+  - component: {fileID: 1421292756}
   m_Layer: 0
   m_Name: tile (17)
   m_TagString: Ground
@@ -3740,6 +4011,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1421292751}
   m_CullTransparentMesh: 0
+--- !u!114 &1421292756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1421292751}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1474599237
 GameObject:
   m_ObjectHideFlags: 0
@@ -3752,6 +4037,7 @@ GameObject:
   - component: {fileID: 1474599240}
   - component: {fileID: 1474599239}
   - component: {fileID: 1474599241}
+  - component: {fileID: 1474599242}
   m_Layer: 0
   m_Name: tile (4)
   m_TagString: Ground
@@ -3842,6 +4128,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 157.74, y: 155.95}
   m_EdgeRadius: 0
+--- !u!114 &1474599242
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474599237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1565882630
 GameObject:
   m_ObjectHideFlags: 0
@@ -4158,6 +4458,7 @@ GameObject:
   - component: {fileID: 1709140741}
   - component: {fileID: 1709140740}
   - component: {fileID: 1709140739}
+  - component: {fileID: 1709140742}
   m_Layer: 0
   m_Name: tile (21)
   m_TagString: Ground
@@ -4248,6 +4549,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1709140737}
   m_CullTransparentMesh: 0
+--- !u!114 &1709140742
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709140737}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1725109200
 GameObject:
   m_ObjectHideFlags: 0
@@ -4260,6 +4575,7 @@ GameObject:
   - component: {fileID: 1725109203}
   - component: {fileID: 1725109202}
   - component: {fileID: 1725109204}
+  - component: {fileID: 1725109205}
   m_Layer: 0
   m_Name: tile (6)
   m_TagString: Ground
@@ -4350,6 +4666,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 157.74, y: 155.95}
   m_EdgeRadius: 0
+--- !u!114 &1725109205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1725109200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1773011265
 GameObject:
   m_ObjectHideFlags: 0
@@ -4453,9 +4783,6 @@ MonoBehaviour:
   startingOne: {x: 0, y: 0, z: 0}
   startingTwo: {x: 0, y: 0, z: 0}
   levelScript: {fileID: 2110218693}
-  tileImage: {fileID: 0}
-  playerOnePaint: {fileID: 0}
-  playerTwoPaint: {fileID: 0}
 --- !u!61 &1773011269
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4667,6 +4994,7 @@ GameObject:
   - component: {fileID: 1928921403}
   - component: {fileID: 1928921402}
   - component: {fileID: 1928921404}
+  - component: {fileID: 1928921405}
   m_Layer: 0
   m_Name: tile (5)
   m_TagString: Ground
@@ -4757,6 +5085,20 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 157.74, y: 155.95}
   m_EdgeRadius: 0
+--- !u!114 &1928921405
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1928921400}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &1962998810
 GameObject:
   m_ObjectHideFlags: 0
@@ -4976,9 +5318,6 @@ MonoBehaviour:
   startingOne: {x: 0, y: 0, z: 0}
   startingTwo: {x: 0, y: 0, z: 0}
   levelScript: {fileID: 2110218693}
-  tileImage: {fileID: 0}
-  playerOnePaint: {fileID: 0}
-  playerTwoPaint: {fileID: 0}
 --- !u!212 &1970632104
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5495,6 +5834,7 @@ GameObject:
   - component: {fileID: 2094544919}
   - component: {fileID: 2094544918}
   - component: {fileID: 2094544917}
+  - component: {fileID: 2094544920}
   m_Layer: 0
   m_Name: tile (20)
   m_TagString: Ground
@@ -5585,6 +5925,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2094544915}
   m_CullTransparentMesh: 0
+--- !u!114 &2094544920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094544915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &2099251731
 GameObject:
   m_ObjectHideFlags: 0
@@ -5597,6 +5951,7 @@ GameObject:
   - component: {fileID: 2099251735}
   - component: {fileID: 2099251734}
   - component: {fileID: 2099251733}
+  - component: {fileID: 2099251736}
   m_Layer: 0
   m_Name: tile (9)
   m_TagString: Ground
@@ -5687,6 +6042,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2099251731}
   m_CullTransparentMesh: 0
+--- !u!114 &2099251736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099251731}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5cddb43e4da4194bb5c6f7ad75310bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerOnePaint: {fileID: 21300000, guid: cb83e83551880884988da9f7619fa2ea, type: 3}
+  playerTwoPaint: {fileID: 21300000, guid: d3cd27a588e6a5a4b9f9c0534c4cf383, type: 3}
 --- !u!1 &2110218693
 GameObject:
   m_ObjectHideFlags: 0

@@ -13,9 +13,6 @@ public class PlayerController : MonoBehaviour
     public Vector3 startingOne;
     public Vector3 startingTwo;
     public GameObject levelScript;
-    public Image tileImage;
-    public Sprite playerOnePaint;
-    public Sprite playerTwoPaint;
     LevelOneScore leveloneScript;
 
 
@@ -23,8 +20,6 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         leveloneScript = levelScript.GetComponent <LevelOneScore>();
-        playerOnePaint = Resources.Load<Sprite>("Blue Paint");
-        playerTwoPaint = Resources.Load<Sprite>("Pink Paint");
     }
 
     // Update is called once per frame
@@ -86,22 +81,16 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.tag == "Ground" || collision.tag == "Start")
+        if (collision.tag == "Ground")
         {
-            collision.tag = "Painted Ground";
-            if (this.gameObject.tag == "PlayerOne")
-            {
-                collision.GetComponent<Image>().sprite = playerOnePaint;
-                Debug.Log(tileImage);
-            }
-            else if (this.gameObject.tag == "PlayerTwo")
-            {
-                collision.GetComponent<Image>().sprite = playerTwoPaint;
-                Debug.Log(tileImage);
-            }
-            
+            collision.tag = "Painted Ground";            
             leveloneScript.paintedNum++;
             Debug.Log("You painted the ground! Painted " + leveloneScript.paintedNum + " tiles!");
+        }
+        else if (collision.tag == "Start")
+        {
+            collision.tag = "Boundary";
+            leveloneScript.paintedNum++;
         }
         else if (collision.tag == "Button")
         {
