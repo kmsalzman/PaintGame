@@ -10,9 +10,9 @@ public class LevelTwoScore : MonoBehaviour
     void Start()
     {
         controllerScript = player.GetComponent<PlayerController>();
-        controllerScript.currentPostion = new Vector3(-34.1105f, -16.0905f, 90f);
+        controllerScript.currentPostion = new Vector3(-17f, -33f, 90f);
         player.transform.position = controllerScript.currentPostion;
-        controllerScript.tileNum = 9;
+        controllerScript.tileNum = 16;
         controllerScript.paintedNum = 0;
     }
 
