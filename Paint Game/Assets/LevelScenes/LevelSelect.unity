@@ -448,6 +448,10 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 2484bb13c720f5545b191bf46840022d, type: 3}
+    - target: {fileID: 3845096325527024966, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f1901163231655045a51c84dbaf94784, type: 3}
     - target: {fileID: 4014688392341078074, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_SizeDelta.y
       value: 361.185
@@ -460,10 +464,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 4.4496
       objectReference: {fileID: 0}
+    - target: {fileID: 5111386325610226328, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f484b6fe283c21419dfa2a765c1b0c0, type: 3}
     - target: {fileID: 6787214163828120812, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_Name
       value: level_button (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6968998091535433974, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a97fa6fa1823f8549b7e08e6a8d5de18, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
 --- !u!224 &593952267 stripped
@@ -727,6 +739,10 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 6aecbc6387fe46c46ae755bfdb4e5150, type: 3}
+    - target: {fileID: 3845096325527024966, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f1901163231655045a51c84dbaf94784, type: 3}
     - target: {fileID: 4014688392341078074, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_SizeDelta.y
       value: 364.02
@@ -735,10 +751,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.0019226
       objectReference: {fileID: 0}
+    - target: {fileID: 5111386325610226328, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f484b6fe283c21419dfa2a765c1b0c0, type: 3}
     - target: {fileID: 6787214163828120812, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_Name
       value: level_button (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6968998091535433974, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a97fa6fa1823f8549b7e08e6a8d5de18, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
 --- !u!1 &903893484
@@ -1175,6 +1199,10 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 18ceccb1e433e364291f2b7c9a5ff276, type: 3}
+    - target: {fileID: 3845096325527024966, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f1901163231655045a51c84dbaf94784, type: 3}
     - target: {fileID: 4014688392341078074, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_SizeDelta.y
       value: 337.6586
@@ -1187,10 +1215,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0.00001049
       objectReference: {fileID: 0}
+    - target: {fileID: 5111386325610226328, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f484b6fe283c21419dfa2a765c1b0c0, type: 3}
     - target: {fileID: 6787214163828120812, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_Name
       value: level_button (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6968998091535433974, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a97fa6fa1823f8549b7e08e6a8d5de18, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
 --- !u!224 &1298297361 stripped
@@ -1585,6 +1621,10 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 509bda53fe082574c8a8ceef15b07dc9, type: 3}
+    - target: {fileID: 3845096325527024966, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f1901163231655045a51c84dbaf94784, type: 3}
     - target: {fileID: 4014688392341078074, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_SizeDelta.x
       value: 442.6138
@@ -1601,10 +1641,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -0.000005722
       objectReference: {fileID: 0}
+    - target: {fileID: 5111386325610226328, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f484b6fe283c21419dfa2a765c1b0c0, type: 3}
     - target: {fileID: 6787214163828120812, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_Name
       value: level_button (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6968998091535433974, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a97fa6fa1823f8549b7e08e6a8d5de18, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
 --- !u!224 &1695312127 stripped
@@ -1927,6 +1975,10 @@ PrefabInstance:
       propertyPath: m_Texture
       value: 
       objectReference: {fileID: 2800000, guid: 797105f1f939a554b8a227b21b932181, type: 3}
+    - target: {fileID: 3845096325527024966, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f1901163231655045a51c84dbaf94784, type: 3}
     - target: {fileID: 4014688392341078074, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_SizeDelta.x
       value: 334.8651
@@ -1943,10 +1995,18 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 4.4496
       objectReference: {fileID: 0}
+    - target: {fileID: 5111386325610226328, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f484b6fe283c21419dfa2a765c1b0c0, type: 3}
     - target: {fileID: 6787214163828120812, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_Name
       value: level_button (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6968998091535433974, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a97fa6fa1823f8549b7e08e6a8d5de18, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
 --- !u!224 &2053184152 stripped
@@ -2455,9 +2515,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3845096325527024966, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: f1901163231655045a51c84dbaf94784, type: 3}
+    - target: {fileID: 5111386325610226328, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f484b6fe283c21419dfa2a765c1b0c0, type: 3}
     - target: {fileID: 6787214163828120812, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
       propertyPath: m_Name
       value: level_button
       objectReference: {fileID: 0}
+    - target: {fileID: 6968998091535433974, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: a97fa6fa1823f8549b7e08e6a8d5de18, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d37be24a1d752704b86bbd0be738acaa, type: 3}
