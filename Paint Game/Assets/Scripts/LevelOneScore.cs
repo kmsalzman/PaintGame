@@ -17,9 +17,10 @@ public class LevelOneScore : MonoBehaviour
     public int goalTotal;
     public int paintedNum;
     public float tileNum;
-    public float score;
+    public float score = 0;
+    public int starNum = 0;
     PlayerController controllerScript;
-    Scene currentScene;
+    public Scene currentScene;
 
     // Start is called before the first frame update
     void Start()
@@ -34,8 +35,8 @@ public class LevelOneScore : MonoBehaviour
         }
         else if (currentScene.name == "Level2")
         {
-            controllerScript.startingOne = new Vector3(-16.7136f, -33.0435f, 90f);
-            controllerScript.startingTwo = new Vector3(17f, -33.0435f, 90f);
+            controllerScript.startingOne = new Vector3(-15.7f, -32.6f, 90f);
+            controllerScript.startingTwo = new Vector3(17.6f, -33f, 90f);
             tileNum = 16f;
             goalTotal = 2;
         }
@@ -89,24 +90,28 @@ public class LevelOneScore : MonoBehaviour
 
             if (score < 33)
             {
+                starNum = 0;
                 star1.SetActive(false);
                 star2.SetActive(false);
                 star3.SetActive(false);
             }
             else if (score > 33 && score < 66)
             {
+                starNum = 1;
                 star1.SetActive(true);
                 star2.SetActive(false);
                 star3.SetActive(false);
             }
             else if (score > 66 && score < 100)
             {
+                starNum = 2;
                 star1.SetActive(true);
                 star2.SetActive(false);
                 star3.SetActive(true);
             }
             else
             {
+                starNum = 3;
                 star1.SetActive(true);
                 star2.SetActive(true);
                 star3.SetActive(true);
@@ -117,6 +122,31 @@ public class LevelOneScore : MonoBehaviour
         else
         {
             Debug.Log("Not Enough Goal " + goal + "Goal total: " + goalTotal);
+        }
+
+        if (currentScene.name == "Level1")
+        {
+
+        }
+        else if (currentScene.name == "Level2")
+        {
+            //scoreTwo = starNum;
+        }
+        else if (currentScene.name == "Level3")
+        {
+            //scoreThree = starNum;
+        }
+        else if (currentScene.name == "Level4")
+        {
+            //scoreFour = starNum;
+        }
+        else if (currentScene.name == "Level5")
+        {
+           // scoreFive = starNum;
+        }
+        else if (currentScene.name == "Level6")
+        {
+            //scoreSix = starNum;
         }
     }
 }

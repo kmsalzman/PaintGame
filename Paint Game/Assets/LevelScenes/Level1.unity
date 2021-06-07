@@ -3894,6 +3894,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   overlay: {fileID: 591005446}
+  level: {fileID: 2110218693}
   star1: {fileID: 684855369}
   star2: {fileID: 609664712}
   star3: {fileID: 1907098862}
@@ -3906,6 +3907,7 @@ MonoBehaviour:
   paintedNum: 0
   tileNum: 0
   score: 0
+  starNum: 0
 --- !u!1 &2135385855
 GameObject:
   m_ObjectHideFlags: 0
