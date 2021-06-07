@@ -111,7 +111,7 @@ public class PlayerController : MonoBehaviour
         }
         else if (collision.tag == "End")
         {
-            collision.tag = "Boundary";
+            collision.tag = "Taken";
             leveloneScript.goalNum++;
             leveloneScript.victory(leveloneScript.paintedNum, leveloneScript.goalNum);
         }
@@ -122,12 +122,27 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.tag == "End")
+        {
+            collision.tag = "Taken";
+            leveloneScript.goalNum = 1;
+        } 
+            
+    }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == "Button")
         {
             leveloneScript.lockedDoor.tag = "Locked";
             leveloneScript.lockedDoor2.tag = "Locked";
+        }
+        else if (collision.tag == "Taken")
+        {
+            collision.tag = "End";
+            leveloneScript.goalNum--;
         }
     }
 }
