@@ -10,6 +10,8 @@ public class LevelOneScore : MonoBehaviour
     public GameObject star2;
     public GameObject star3;
     public GameObject playerOne;
+    public GameObject movePointOne;
+    public GameObject movePointTwo;
     public GameObject playerTwo;
     public GameObject lockedDoor;
     public GameObject lockedDoor2;
@@ -70,7 +72,9 @@ public class LevelOneScore : MonoBehaviour
         }
         
         playerOne.transform.position = controllerScript.startingOne;
+        movePointOne.transform.position = controllerScript.startingOne;
         playerTwo.transform.position = controllerScript.startingTwo;
+        movePointTwo.transform.position = controllerScript.startingTwo;
         
         paintedNum = 0;
         overlay.SetActive(false);

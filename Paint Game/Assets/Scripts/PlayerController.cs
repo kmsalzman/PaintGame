@@ -12,78 +12,30 @@ public class PlayerController : MonoBehaviour
     private Vector3 previousPosition;
     public Vector3 startingOne;
     public Vector3 startingTwo;
+    public Transform movePoint;
     public GameObject levelScript;
     LevelOneScore leveloneScript;
+    
 
 
     // Start is called before the first frame update
     void Start()
     {
         leveloneScript = levelScript.GetComponent <LevelOneScore>();
+        movePoint.parent = null;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (this.name == "PlayerOne")
-        {
-            if (Input.GetKeyDown("d"))
-            {
-                previousPosition = transform.position;
-                transform.Translate(Vector3.right * speed, Space.World);
-            }
-            else if (Input.GetKeyDown("a"))
-            {
-                previousPosition = transform.position;
-                transform.Translate(Vector3.left * speed, Space.World);
-            }
-            else if (Input.GetKeyDown("w"))
-            {
-                previousPosition = transform.position;
-                transform.Translate(Vector3.up * speed, Space.World);
-            }
-            else if (Input.GetKeyDown("s"))
-            {
-                previousPosition = transform.position;
-                transform.Translate(Vector3.down * speed, Space.World);
-            }
-            
-        }    
-        else if (this.name == "PlayerTwo")
-        {
-            if (Input.GetKeyDown("right"))
-            {
-                previousPosition = transform.position;
-                transform.Translate(Vector3.right * speed, Space.World);
-            }
-            else if (Input.GetKeyDown("left"))
-            {
-                previousPosition = transform.position;
-                transform.Translate(Vector3.left * speed, Space.World);
-            }
-            else if (Input.GetKeyDown("up"))
-            {
-                previousPosition = transform.position;
-                transform.Translate(Vector3.up * speed, Space.World);
-            }
-            else if (Input.GetKeyDown("down"))
-            {
-                previousPosition = transform.position;
-                transform.Translate(Vector3.down * speed, Space.World);
-            }
-        }
-
-        if (Input.GetKeyDown("r"))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
+        transform.position = Vector3.MoveTowards(transform.position, movePoint.transform.position, speed * Time.deltaTime);
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.tag == "Ground")
         {
-            collision.tag = "Painted Ground";            
+            collision.tag = "Painted Ground";
             leveloneScript.paintedNum++;
             Debug.Log("You painted the ground! Painted " + leveloneScript.paintedNum + " tiles!");
         }
@@ -102,21 +54,16 @@ public class PlayerController : MonoBehaviour
         {
             collision.tag = "Taken";
             leveloneScript.goalNum++;
-            leveloneScript.victory(leveloneScript.paintedNum, leveloneScript.goalNum);
-        }
-        else
-        {
-            Debug.Log("You can't step there!");
-            transform.position = previousPosition;
         }
     }
 
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.tag == "End")
+        if ((collision.tag == "Taken") && (transform.position == movePoint.transform.position))
         {
             collision.tag = "Taken";
             leveloneScript.goalNum = 1;
+            leveloneScript.victory(leveloneScript.paintedNum, leveloneScript.goalNum);
         } 
             
     }
